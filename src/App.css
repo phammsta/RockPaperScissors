@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wonbox{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  width: 400px;
+  height: 600px;
+  border: 5px solid green;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  color: black;
+}
+.lostbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 600px;
+  border: 5px solid red;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  color: black;
+}
+.youwontext{
+  padding-top: 30px;
+  color: green;
+  font-size: 40px;
+}
+.outcomewontext{
+  padding-bottom: 30px;
+  color: green;
+  font-size: 40px;
+}
+.youlosttext{
+  padding-top: 30px;
+  color: red;
+  font-size: 40px;
+}
+.outcomelosttext{
+  padding-bottom: 30px;
+  color: red;
+  font-size: 40px;
+}
+.parents{
+  margin-top: 60px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.background{
+  background-color: lightgray;
+  height:100vh;
 }
