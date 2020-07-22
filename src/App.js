@@ -23,9 +23,9 @@ function App() {
 
     setPlayerChoice(newUserChoice);
     setComputerChoice(newComputerChoice);
-    if (result === "Victory!") {
+    if (result === "Win") {
         setPreviousWinner("You");
-      } else if (result === "Defeat!") {
+      } else if (result === "Loss") {
         setPreviousWinner("Computer");
       } else {
         setPreviousWinner("Tie");
